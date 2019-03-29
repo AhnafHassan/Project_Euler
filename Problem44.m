@@ -10,7 +10,7 @@ while(1)
             D= abs(Pentagonal(Index) - New);
             Sum= Pentagonal(Index) + New;
             m= n+1;
-            while(1)
+            while(1) % Loop until we find Pentagonals greater than the sum of the two detected ones
                 NewPenta= m*(3*m-1)/2;
                 if NewPenta==Sum
                     inner_flag= 1; % Found answer
